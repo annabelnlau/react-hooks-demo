@@ -8,6 +8,10 @@ class TodoList extends React.Component {
     inputValue: '',
   }
 
+  componentDidMount(){
+    alert('Welcome!')
+  }
+
   handleChange = e => {
     this.setState({ inputValue: e.target.value });
   }
